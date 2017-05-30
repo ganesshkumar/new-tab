@@ -20,7 +20,11 @@ const bookmarks = {
   tools: [
     {
       url: 'www.ganesshkumar.com/hypnos',
-      style: {backgroundColor: '#1194F6', color: 'white'}
+      style: {backgroundColor: '#1194f6', color: 'white'}
+    },
+    {
+      url: 'http://digg.com/reader',
+      style: {backgroundColor: '#03a5f3', color: 'white'}
     }
   ]
 }
