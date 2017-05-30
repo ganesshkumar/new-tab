@@ -1,0 +1,14 @@
+.bookmarks {
+  margin: 20px 0;
+
+  .title {
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 1.3em;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+}
