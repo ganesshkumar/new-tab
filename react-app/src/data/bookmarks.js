@@ -25,6 +25,10 @@ const bookmarks = {
     {
       url: 'http://digg.com/reader',
       style: {backgroundColor: '#03a5f3', color: 'white'}
+    },
+    {
+      url: 'https://tweetdeck.twitter.com',
+      style: {backgroundColor: '#3593dc', color: 'white'}
     }
   ]
 }
