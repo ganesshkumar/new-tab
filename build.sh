@@ -16,7 +16,7 @@ fi
 
 # Copy build contents for chrome
 printf '\e[34m Copying build contents for chrome extension \n'
-printf '\e[34m $cp -r react-app/build/* chrome/ && rm chrome/service-worker.js'
+printf '\e[34m $cp -r react-app/build/* chrome/ && rm chrome/service-worker.js \n'
 
 cp -r react-app/build/* chrome/ && rm chrome/service-worker.js
 
@@ -26,4 +26,18 @@ then
   printf '\e[32m Chrome extension generated successfully \n'
 else
   printf '\e[31m Chrome extenstion generation failed \n'
+fi
+
+# Copy build contents for firefox
+printf '\e[34m Copying build contents for firefox add-on \n'
+printf '\e[34m $cp -r react-app/build/* firefox/ && rm firefox/service-worker.js \n'
+
+cp -r react-app/build/* firefox/ && rm firefox/service-worker.js
+
+# Check if last command executed successfully
+if [ $? -eq 0 ]
+then
+  printf '\e[32m Firefox add-on generated successfully \n'
+else
+  printf '\e[31m Firefox add-on generation failed \n'
 fi
