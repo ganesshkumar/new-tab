@@ -30,6 +30,12 @@ const bookmarks = {
       url: 'https://tweetdeck.twitter.com',
       style: {backgroundColor: '#3593dc', color: 'white'}
     }
+  ],
+  "hobby projects": [
+    {
+      url: 'https://www.demandrush.com/',
+      style: {backgroundColor: '#219653', color: 'white'}
+    }
   ]
 }
 
