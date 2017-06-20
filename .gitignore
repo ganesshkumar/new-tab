@@ -5,3 +5,7 @@ react-app/build/
 chrome/asset-manifest.json
 chrome/index.html
 chrome/static/
+chrome/index.html
+firefox/index.html
+firefox/asset-manifest.json
+firefox/static/

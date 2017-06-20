@@ -15,6 +15,10 @@ const bookmarks = {
     {
       url: 'https://twitter.com',
       style: {backgroundColor: '#3593dc', color: 'white'}
+    },
+    {
+      url: 'https://coursera.org',
+      style: {backgroundColor: '#4687df', color: 'white'}
     }
   ],
   tools: [
