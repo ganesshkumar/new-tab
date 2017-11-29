@@ -1,11 +1,17 @@
 .application {
   height: 100%;
   display: grid;
-  grid-template-columns: 20% auto 20%;
-  grid-template-rows: 20% auto 20%;
-}
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: 10% auto 10%;
 
-.bookmark-section {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
+  .app-bar {
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+  }
+
+  .bookmark-section {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
 }

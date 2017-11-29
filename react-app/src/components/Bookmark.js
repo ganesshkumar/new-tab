@@ -26,7 +26,6 @@ const Bookmark = (props) => {
       <a
         href={props.bookmark.url}
         style={anchorStyle}
-        target='_blank'
         rel="noopener noreferrer"
       >
         <div className='super'> {mountpoint ? url.domain : (url.subdomain || 'www')} </div>

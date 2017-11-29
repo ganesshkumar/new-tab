@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@uifabric/icons": "^5.2.0",
+    "office-ui-fabric-react": "^5.26.1",
     "parse-domain": "^1.1.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"

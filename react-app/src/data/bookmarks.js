@@ -23,7 +23,7 @@ const bookmarks = {
   ],
   tools: [
     {
-      url: 'www.ganesshkumar.com/hypnos',
+      url: 'https://ganesshkumar.com/hypnos',
       style: {backgroundColor: '#1194f6', color: 'white'}
     },
     {
